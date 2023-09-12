@@ -7,6 +7,6 @@ EXPOSE 8000
 
 RUN pip install -r /temp/requirements.txt
 
-RUN adduser --disable-password mlims-admin
+RUN adduser --disabled-password mlims-admin
 
 USER mlims-admin
